@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frontpage_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <include
+        android:id="@+id/front_titlebar"
+        layout="@layout/frontpage_titlebar">
+    </include>
+
+    <Button
+        android:id="@+id/bsq"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/button_custom"
+        android:text="@string/simple_questions"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:textSize="28sp" />
+
+    <Button
+        android:id="@+id/btq"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="60dp"
+        android:background="@drawable/button_custom"
+        android:text="@string/tough_questions"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:textSize="28sp" />
+
+    <Button
+        android:id="@+id/botherapp"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_below="@+id/bsq"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/button_custom"
+        android:text="@string/see_my_other_projects"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:textSize="28sp" />
+
+    <Button
+        android:id="@+id/brate"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_below="@+id/btq"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="60dp"
+        android:background="@drawable/button_custom"
+        android:text="@string/rate_app"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:textSize="28sp" />
+
+</RelativeLayout>

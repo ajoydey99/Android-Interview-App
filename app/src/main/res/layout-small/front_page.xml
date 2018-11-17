@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frontpage_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <include
+        android:id="@+id/front_titlebar"
+        layout="@layout/frontpage_titlebar">
+    </include>
+
+    <Button
+        android:id="@+id/bsq"
+        android:layout_width="110dp"
+        android:layout_height="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        android:background="@drawable/button_custom"
+        android:text="@string/simple_questions"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:textSize="10sp" />
+
+    <Button
+        android:id="@+id/btq"
+        android:layout_width="110dp"
+        android:layout_height="20dp"
+        android:layout_below="@+id/bsq"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/button_custom"
+        android:text="@string/tough_questions"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:textSize="10sp" />
+
+    <Button
+        android:id="@+id/botherapp"
+        android:layout_width="110dp"
+        android:layout_height="20dp"
+        android:layout_below="@+id/btq"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/button_custom"
+        android:text="@string/see_my_other_projects"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:textSize="10sp" />
+
+    <Button
+        android:id="@+id/brate"
+        android:layout_width="110dp"
+        android:layout_height="20dp"
+        android:layout_below="@+id/botherapp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/button_custom"
+        android:text="@string/rate_app"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:textSize="10sp" />
+
+</RelativeLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tough_ans">
+        <item>Dalvik serves as a virtual machine, and it is where every Android application runs. Through Dalvik, a device is able to execute multiple virtual machines efficiently through better memory management.</item>
+        <item>This file is essential in every application. It is declared in the root directory and contains information about the application that the Android system must know before the codes can be executed.</item>
+        <item>One technique that prevents the Android system from concluding a code that has been responsive for a long period of time is to create a child thread. Within the child thread, most of the actual workings of the codes can be placed, so that the main thread runs with minimal periods of unresponsive times.</item>
+        <item>Yes, there are actually instances wherein some qualifiers can take precedence over locale. There are two known exceptions, which are the MCC (mobile country code) and MNC (mobile network code) qualifiers.</item>
+        <item>There are 4 possible states:\n
+            - foreground activity\n
+            - visible activity\n
+            - background activity\n
+            - empty process</item>
+        <item>The following are steps to be followed prior to actual application development in an Android-powered device:\n
+            - Declare your application as "debuggable" in your Android Manifest.\n
+            - Turn on "USB Debugging" on your device.\n
+            - Set up your system to detect your device.</item>
+        <item>1. create the .aidl file, which defines the programming interface\n
+            2. implement the interface, which involves extending the inner abstract Stub class as well as implanting its methods.\n
+            3. expose the interface, which involves implementing the service to the clients.</item>
+        <item>When default resources, which contain default strings and files, are not present, an error will occur and the app will not run. Resources are placed in specially named subdirectories under the project res/ directory.</item>
+        <item>Assuming that all of these multiple resources are able to match the configuration of a device, the \'locale\' qualifier almost always takes the highest precedence over the others.</item>
+        <item>The ANR dialog is displayed to the user based on two possible conditions. One is when there is no response to an input event within 5 seconds, and the other is when a broadcast receiver is not done executing within 10 seconds.</item>
+        <item>AIDL, or Android Interface Definition Language, handles the interface requirements between a client and a service so both can communicate at the same level through interprocess communication or IPC. This process involves breaking down objects into primitives that Android can understand. This part is required simply because a process cannot access the memory of the other process.</item>
+        <item>AIDL has support for the following data types:\n
+            - string\n
+            - charSequence\n
+            - List\n
+            - Map\n
+            - all native Java data types like int,long, char and Boolean</item>
+        <item>A fragment is a part or portion of an activity. It is modular in a sense that you can move around or combine with other fragments in a single activity. Fragments are also reusable.</item>
+        <item>A visible activity is one that sits behind a foreground dialog. It is actually visible to the user, but not necessarily being in the foreground itself.</item>
+        <item>The foreground activity, being the most important among the other states, is only killed or terminated as a last resort, especially if it is already consuming too much memory. When a memory paging state has been reach by a foreground activity, then it is killed so that the user interface can retain its responsiveness to the user.</item>
+        <item>Yes, it is possible to do that, such as when you want to create a background behavior for a particular activity. You can do this by using add(Fragment,string) method to add a fragment from the activity.</item>
+        <item>To remove an icon or shortcut, press and hold that icon. You then drag it downwards to the lower part of the screen where a remove button appears.</item>
+        <item>There are 5 key components under the Android application architecture:\n
+            - services\n
+            - intent\n
+            - resource externalization\n
+            - notifications\n
+            - content providers</item>
+        <item>A project under Android development, upon compilation, becomes an .apk file. This apk file format is actually made up of the AndroidManifest.xml file, application code, resource files, and other related files.</item>
+        <item>A Sticky Intent is a broadcast from sendStickyBroadcast() method such that the intent floats around even after the broadcast, allowing others to collect data from it.</item>
+        <item>Some Android-powered phone allows you to upgrade to the higher Android operating system version. However, not all upgrades would allow you to get the latest version. It depends largely on the capability and specs of the phone, whether it can support the newer features available under the latest Android version.</item>
+        <item>Portable Wi-Fi Hotspot allows you to share your mobile internet connection to other wireless device. For example, using your Android-powered phone as a Wi-Fi Hotspot, you can use your laptop to connect to the Internet using that access point.</item>
+        <item>In Android development, an action is what the intent sender wants to do or expected to get as a response. Most application functionality is based on the intended action.</item>
+        <item>In general, a Nine-patch image allows resizing that can be used as background or other image size requirements for the target device. The Nine-patch refers to the way you can resize the image: 4 corners that are unscaled, 4 edges that are scaled in 1 axis, and the middle one that can be scaled into both axes.</item>
+        <item>The main language supported is Java programming language. Java is the most popular language for app development, which makes it ideal even for new Android developers to quickly learn to create and deploy applications in the Android environment.</item>
+    </string-array>
+</resources>

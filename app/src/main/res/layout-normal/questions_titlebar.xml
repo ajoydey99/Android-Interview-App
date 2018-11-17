@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:background="#b71820"
+    android:gravity="center_vertical"
+    android:weightSum="100">
+
+    <TextView
+        android:id="@+id/question_type"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="80"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="@string/question_type"
+        android:textColor="#fff"
+        android:padding="10dp"
+        android:textSize="28sp" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_weight="10"
+        android:background="@drawable/speaker"
+        android:contentDescription="@string/speak_the_answer"
+        />
+
+    <Button
+        android:id="@+id/bstop"
+        android:layout_marginEnd="5dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_weight="10"
+        android:background="@drawable/off_button" />
+</LinearLayout>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Android Interview</string>
+    <string name="simple_questions">Simple Questions</string>
+    <string name="tough_questions">Tough Questions</string>
+    <string name="see_my_other_projects">My Other Projects</string>
+    <string name="rate_app">Rate App</string>
+    <string name="xx">XX/</string>
+    <string name="yy">YY</string>
+    <string name="question">Question</string>
+    <string name="press_a_button_for_answer">Press A Button for Answer</string>
+    <string name="question_type">Question Type</string>
+    <string name="android_interview">Android Interview</string>
+    <string name="speak_the_answer">Speak the answer</string>
+    <string name="developer_ajoy_dey">Developer: Ajoy Dey</string>
+    <string name="app_icon_in_middle">app icon in middle</string>
+    <string name="loadin_gif">Loadin gif</string>
+    <string name="version_1_0">Version 1.0</string>
+</resources>

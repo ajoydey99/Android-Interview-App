@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tough_ques">
+        <item>What role does Dalvik play in Android development?</item>
+        <item>What is the AndroidManifest.xml?</item>
+        <item>How can the ANR be prevented?</item>
+        <item>Is there a case wherein other qualifiers in multiple resources take precedence over locale?</item>
+        <item>What are the different states wherein a process is based?</item>
+        <item>What is the proper way of setting up an Android-powered device for app development?</item>
+        <item>Enumerate the steps in creating a bounded service through AIDL.</item>
+        <item>What is the importance of Default Resources?</item>
+        <item>When dealing with multiple resources, which one takes precedence?</item>
+        <item>When does ANR occur?</item>
+        <item>What is AIDL?</item>
+        <item>What data types are supported by AIDL?</item>
+        <item>What is a Fragment?</item>
+        <item>What is a visible activity?</item>
+        <item>When is the best time to kill a foreground activity?</item>
+        <item>Is it possible to use or add a fragment without using a user interface?</item>
+        <item>How do you remove icons and widgets from the main screen of the Android device?</item>
+        <item>What are the core components under the Android application architecture?</item>
+        <item>What composes a typical Android application project?</item>
+        <item>What is a Sticky Intent?</item>
+        <item>Do all mobile phones support the latest Android operating system?</item>
+        <item>What is portable wi-fi hotspot?</item>
+        <item>What is an action?</item>
+        <item>What is the difference between a regular bitmap and a nine-patch image?</item>
+        <item>What language is supported by Android for application development?</item>
+    </string-array>
+</resources>
